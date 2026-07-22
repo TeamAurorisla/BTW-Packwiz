@@ -1,0 +1,13 @@
+name = "Beyond The Wake"
+author = "TeamAurorisla"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9bd525f8116b2ef1a9556aa9cd21a05ecdda4c507f6b69f1c6b67cdbc0e4e2e4"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.243"
