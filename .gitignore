@@ -1,8 +1,0 @@
-mods/.index/
-mods/*.jar
-mods/*.jar.disabled
-
-resourcepacks/.index/
-resourcepacks/*.zip
-
-shaderpacks/*.zip

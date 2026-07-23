@@ -1,5 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "0bf99bf9d19f17698a5374a0744c627f623a5012f8d3439700bb149d85cc4bd2"
+file = "mods/ferrite-core.pw.toml"
+hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "2190d665f1e8f82bf3d518e669f7eccaa45ef4e03060978a08d50cf62576f84e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "5d6f6d6373178c8ddec62954caf607125305a587981e70c55261d5cb233cd570"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "714535884fcd760296204e91872acd3351e1fd94d20014f4b512b7c63825c271"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "f37cdd9e95e32db5b3407bf80698494ff0aaf03d6f516793971d55449bc3b0cd"
+metafile = true
