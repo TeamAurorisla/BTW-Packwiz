@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "2190d665f1e8f82bf3d518e669f7eccaa45ef4e03060978a08d50cf62576f84e"
 metafile = true
