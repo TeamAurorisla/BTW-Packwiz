@@ -7,7 +7,8 @@ Beyond The Wake 整合包开发人员使用的可自动更新模组、材质包�
 本仓库使用 GitHub Actions 实现自动化管理：
 
 - 每次向 `main` 主分支推送改动时，工作流会自动运行 `packwiz refresh`命令
-- 若上传了新的 `.pw.toml` 元数据文件，CI 会自动检测 `index.toml` 变更情况，然后自动提交并推送更新后的索引文件
+- 若上传了新的 `.pw.toml` 文件，CI 会自动检测 `index.toml` 的变更情况，然后提交并推送更新后的`index.toml` 
+- 此外，若 `index.toml` 发生变更，CI 还会自动下载一次更新后的所有模组和材质包等内容
 
 ## 本地开发
 
