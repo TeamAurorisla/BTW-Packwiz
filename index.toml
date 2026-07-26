@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/packwiz-refresh.yml"
-hash = "8ed0d1029c94cbf28db4b8578a623301327885bff7dec5d18350ef7c669e178d"
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
 metafile = true
