@@ -15,13 +15,49 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run packwiz refresh
+        id: refresh
         run: |
           chmod +x packwiz
           ./packwiz refresh
+          if git diff --quiet index.toml; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Download packwiz-installer-bootstrap
+        if: steps.refresh.outputs.changed == 'true'
+        run: |
+          curl -L -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Run packwiz-installer-bootstrap
+        if: steps.refresh.outputs.changed == 'true'
+        run: |
+          java -jar packwiz-installer-bootstrap.jar https://teamaurorisla.github.io/BTW-Packwiz/pack.toml
 
       - name: Commit and push changes
+        if: steps.refresh.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-          git diff --cached --quiet || (git commit -m "chore: refresh packwiz index" && git push)
+          git commit -m "chore: refresh packwiz index"
+          git push
+
+      - name: Prepare artifact files
+        if: steps.refresh.outputs.changed == 'true'
+        run: |
+          mkdir -p artifact-downloads/mods
+          mkdir -p artifact-downloads/resourcepacks
+          mkdir -p artifact-downloads/shaderpacks
+          find mods/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} artifact-downloads/mods/ \;
+          find resourcepacks/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} artifact-downloads/resourcepacks/ \;
+          find shaderpacks/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} artifact-downloads/shaderpacks/ \;
+
+      - name: Upload downloaded files
+        if: steps.refresh.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: btw-packwiz-downloads
+          path: artifact-downloads/
+          if-no-files-found: warn
