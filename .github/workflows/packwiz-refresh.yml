@@ -19,20 +19,24 @@ jobs:
         run: |
           chmod +x packwiz
           ./packwiz refresh
-          if git diff --quiet index.toml; then
+          if git diff --quiet index.toml pack.toml; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and push index.toml
+      - name: Commit and push updated files
         if: steps.refresh.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add index.toml
+          git add index.toml pack.toml
           git commit -m "chore: refresh packwiz index"
           git push
+
+      - name: Wait for GitHub Pages sync
+        if: steps.refresh.outputs.changed == 'true'
+        run: sleep 30
 
       - name: Download packwiz-installer-bootstrap
         if: steps.refresh.outputs.changed == 'true'
@@ -42,6 +46,8 @@ jobs:
       - name: Run packwiz-installer-bootstrap
         if: steps.refresh.outputs.changed == 'true'
         working-directory: /tmp
+        env:
+          JAVA_TOOL_OPTIONS: "-Djava.awt.headless=true"
         run: |
           java -jar packwiz-installer-bootstrap.jar https://teamaurorisla.github.io/BTW-Packwiz/pack.toml
 
