@@ -34,10 +34,6 @@ jobs:
           git commit -m "chore: refresh packwiz index"
           git push
 
-      - name: Wait for GitHub Pages sync
-        if: steps.refresh.outputs.changed == 'true'
-        run: sleep 30
-
       - name: Download packwiz-installer-bootstrap
         if: steps.refresh.outputs.changed == 'true'
         run: |
@@ -45,19 +41,25 @@ jobs:
 
       - name: Run packwiz-installer-bootstrap
         if: steps.refresh.outputs.changed == 'true'
-        working-directory: /tmp
         env:
           JAVA_TOOL_OPTIONS: "-Djava.awt.headless=true"
         run: |
-          java -jar packwiz-installer-bootstrap.jar https://teamaurorisla.github.io/BTW-Packwiz/pack.toml
+          java -jar /tmp/packwiz-installer-bootstrap.jar pack.toml
+
+      - name: Collect downloaded files
+        if: steps.refresh.outputs.changed == 'true'
+        run: |
+          mkdir -p /tmp/artifact-downloads/mods
+          mkdir -p /tmp/artifact-downloads/resourcepacks
+          mkdir -p /tmp/artifact-downloads/shaderpacks
+          find mods/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} /tmp/artifact-downloads/mods/ \;
+          find resourcepacks/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} /tmp/artifact-downloads/resourcepacks/ \;
+          find shaderpacks/ -maxdepth 1 -type f ! -name '*.pw.toml' -exec cp {} /tmp/artifact-downloads/shaderpacks/ \;
 
       - name: Upload downloaded files
         if: steps.refresh.outputs.changed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: btw-packwiz-downloads
-          path: |
-            /tmp/mods/
-            /tmp/resourcepacks/
-            /tmp/shaderpacks/
+          path: /tmp/artifact-downloads/
           if-no-files-found: warn
