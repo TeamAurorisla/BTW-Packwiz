@@ -1,6 +1,6 @@
 filename = 'stonezone-1.21-2.11.17-neoforge.jar'
 name = 'Every Compat (Stone Zone)'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'stonezone-1.21-2.11.17-neoforge'
 hash = '4bfc71068be68e2d648fd6442e6a4efe6cf621b7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8497586

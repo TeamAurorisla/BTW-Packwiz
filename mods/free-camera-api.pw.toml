@@ -1,6 +1,6 @@
 filename = 'freecameraapi-neo-1.21.1-2.1.1.jar'
 name = 'Free camera API'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'freecameraapi-neo-1.21.1-2.1.1.jar'
 hash = '8275ced65a96869013e9c5fd29461db8829c72a5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 6055259

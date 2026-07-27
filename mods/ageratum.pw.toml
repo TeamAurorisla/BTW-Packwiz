@@ -1,6 +1,6 @@
 filename = 'ageratum-neoforge-1.21.1-0.0.1+build.110.jar'
 name = 'Ageratum'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'Ageratum For NeoForge v1.21.1-0.0.1+build.110'
 hash = 'ab34a9bbfa61ef6eef06509ccac61bc5a7a5fe9c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8517610

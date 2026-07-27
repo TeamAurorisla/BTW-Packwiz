@@ -1,6 +1,6 @@
 filename = 'combat_roll-neoforge-2.0.6+1.21.1.jar'
 name = 'Combat Roll [Fabric & Forge]'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'combat_roll-neoforge-2.0.6+1.21.1.jar'
 hash = '8b9676996e2b49520ac29d92e6068089c5f40baa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7348018

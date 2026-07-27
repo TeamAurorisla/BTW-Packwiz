@@ -1,6 +1,6 @@
 filename = 'grim-kingdoms-lost-structures-ruins-vanilla-edition-v1.0.0 1.21+.jar'
 name = 'Grim kingdoms: Vanilla Edition'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.21',
@@ -27,7 +27,6 @@ x-prismlauncher-version-number = 'Grim Kingdoms  - Vanilla edition V1.0.0 1.21+ 
 hash = '172d139b65629866c174d136aa46950923ef4d3f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7897154

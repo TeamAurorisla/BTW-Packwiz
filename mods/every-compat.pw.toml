@@ -1,6 +1,6 @@
 filename = 'everycomp-1.21-2.11.48-neoforge.jar'
 name = 'Every Compat (Wood Good)'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'everycomp-1.21-2.11.48-neoforge'
 hash = '9baaea246eba12641024915d5b263b2e49ea2626'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8509008

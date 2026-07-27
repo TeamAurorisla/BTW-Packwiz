@@ -1,6 +1,6 @@
 filename = 'lukis-crazy-chambers-1.0.3.jar'
 name = "Luki's Crazy Chambers"
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.21',
@@ -23,7 +23,6 @@ x-prismlauncher-version-number = "v1.0.3 1.21-1.21.11 | Luki's Crazy Chambers"
 hash = '146a4cda28a46ad4ed09083e4e37da9473a1f7af'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7456313

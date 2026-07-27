@@ -1,6 +1,6 @@
 filename = 'Explorify v1.6.5.mod.jar'
 name = 'Explorify – Dungeons & Structures'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.20',
@@ -34,7 +34,6 @@ x-prismlauncher-version-number = 'v1.6.5'
 hash = '5fb28be29200a41b034e423d87823eb19ad651cd'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8082824

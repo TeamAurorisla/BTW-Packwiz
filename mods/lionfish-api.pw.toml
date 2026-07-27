@@ -1,6 +1,6 @@
 filename = 'lionfishapi-3.1.jar'
 name = 'Lionfish API'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'lionfishapi-3.1.jar'
 hash = '353ca00ed118eb67cf11085abbbd699884722326'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8345326

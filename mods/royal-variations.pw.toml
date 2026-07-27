@@ -1,6 +1,6 @@
 filename = 'royal-variations-[NeoForge]_1.21.1_2.0.4.jar'
 name = 'Royal Variations'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'royal-variations-[NeoForge]_1.21.1_2.0.4.jar'
 hash = '016ef3fb997b36e7930bd7d2424dd4335f9671ba'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7536377

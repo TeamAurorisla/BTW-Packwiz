@@ -1,6 +1,6 @@
 filename = 'Geophilic v3.6.mod.jar'
 name = 'Geophilic – Vanilla Biome Overhauls'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.20',
@@ -34,7 +34,6 @@ x-prismlauncher-version-number = 'v3.6'
 hash = '1eb1700a02ebeab1bf1f3004abd4a02263495d25'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8261046

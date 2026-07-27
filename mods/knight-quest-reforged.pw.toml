@@ -1,6 +1,6 @@
 filename = 'knightquest-neoforge-1.21.1-1.9.3.jar'
 name = 'Knight Quest [Reforged]'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = '[NEOFORGE] Knight Quest 1.9.3-1.21.1'
 hash = 'a580ff4cc8153befebe3847f16864c9004ab6845'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8253272

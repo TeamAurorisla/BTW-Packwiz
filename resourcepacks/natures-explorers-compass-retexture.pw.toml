@@ -1,6 +1,6 @@
 filename = "Silver's Compass Retexture.zip"
 name = "Nature's & Explorer's Compass Retexture"
-side = ''
+side = 'both'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.20.1',
@@ -28,7 +28,6 @@ x-prismlauncher-version-number = "Silver's Compass Retexture.zip"
 hash = 'd21e68c3d9c2d75ff46bfbf786aa5c7ecb40a9d8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7282857

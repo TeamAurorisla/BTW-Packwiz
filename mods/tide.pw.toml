@@ -1,6 +1,6 @@
 filename = 'tide-neoforge-1.21.1-2.1.jar'
 name = 'Tide 2'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'Tide 2.1 (NeoForge 1.21.1)'
 hash = '3b40c7ae813a307e98d6cdf51ea1fb6e11e8e82f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8295525

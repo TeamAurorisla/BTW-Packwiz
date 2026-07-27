@@ -1,6 +1,6 @@
 filename = 'Medieval_Paintings-1.19.3-2.0.zip'
 name = 'Medieval Paintings'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.19',
@@ -24,7 +24,6 @@ x-prismlauncher-version-number = 'Medieval_Paintings-1.21'
 hash = '5f37237ddf974e6bb917015390236c9ce1dd538e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 4057808

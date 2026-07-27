@@ -1,6 +1,6 @@
 filename = 'emi-1.1.24+1.21.1+neoforge.jar'
 name = 'EMI'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'emi-1.1.24+1.21.1+neoforge'
 hash = '3fd494b37027dfbc7f78414d7cbf251c9eb6738a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8081408

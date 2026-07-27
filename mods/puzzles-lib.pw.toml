@@ -1,6 +1,6 @@
 filename = 'PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar'
 name = 'Puzzles Lib'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] PuzzlesLib-v21.1.52'
 hash = '66182c3affb9f99624d1d770ca168d2a63af83f6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8251525

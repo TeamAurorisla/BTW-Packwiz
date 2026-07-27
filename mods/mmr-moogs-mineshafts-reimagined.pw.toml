@@ -1,6 +1,6 @@
 filename = 'MoogsMineshaftsReimagined-1.21-1.0.3.jar'
 name = "MMR - Moog's Mineshafts Reimagined"
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.21',
@@ -26,7 +26,6 @@ x-prismlauncher-version-number = 'MMR 1.0.3-1.21 [UNIVERSAL]'
 hash = '7a11aa5daf87eb8223d83ff2b9cd98a9569f251f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8312865

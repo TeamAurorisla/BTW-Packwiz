@@ -1,6 +1,6 @@
 filename = 'bettercombat-neoforge-2.4.0+1.21.1.jar'
 name = 'Better Combat [Fabric & Forge]'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'bettercombat-neoforge-2.4.0+1.21.1.jar'
 hash = 'bacbc8c86671663e9998b141c5732250c1f4d4fb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8430183

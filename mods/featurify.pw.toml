@@ -1,6 +1,6 @@
 filename = 'featurify-neoforge-1.0.4+mc1.21.1.jar'
 name = 'Featurify - Feature Control'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'Featurify 1.0.4'
 hash = 'c51ceb77dd4836ab5e98dfdc408b91438a67d134'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8345064

@@ -1,6 +1,6 @@
 filename = 'borninconfiguration-3.2.2.jar'
 name = 'Born In Configuration'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'Version 3.2.2 -1.21.1 [NEO]'
 hash = 'c334e3f780d4347e2a12524770354e93a9d6fcce'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8122961

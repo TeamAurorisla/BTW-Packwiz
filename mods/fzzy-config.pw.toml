@@ -1,6 +1,6 @@
 filename = 'fzzy_config-0.7.6+1.21+neoforge.jar'
 name = 'Fzzy Config'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'fzzy_config-0.7.6+1.21+neoforge'
 hash = 'c0910f9b975aaab8545ce950539748fb33d704d1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7568897

@@ -1,6 +1,6 @@
 filename = 'camera_anim-1.21.1-1.0.1.jar'
 name = 'Camera Anim'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'camera_anim-neo-1.21.1-1.0.1.jar'
 hash = '6cb8008c7ec36a5c08be7e23be584ccd6f4224b2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 6055244
