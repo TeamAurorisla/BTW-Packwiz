@@ -6,6 +6,11 @@ hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "125d113a05aadb63cc24ee73063f71b3ccaa6bcd315c2e3300761fb0b479a5cd"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "2190d665f1e8f82bf3d518e669f7eccaa45ef4e03060978a08d50cf62576f84e"
 metafile = true
