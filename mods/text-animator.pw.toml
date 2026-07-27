@@ -1,0 +1,17 @@
+filename = 'TextAnimator-1.21.1-NeoForge-3.2.3.jar'
+name = 'Text Animator'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.2.3+neoforge'
+
+[download]
+hash = '923b0659908954fa0666d24fb9995c115965b34757d4acd88f864504305c454170d072b0208932256cc3120275674e2185d9a4ec7bc99faecc47adacd959636a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HBIG5nRf/versions/KF9W8Z1P/TextAnimator-1.21.1-NeoForge-3.2.3.jar'
+
+[update.modrinth]
+mod-id = 'HBIG5nRf'
+version = 'KF9W8Z1P'

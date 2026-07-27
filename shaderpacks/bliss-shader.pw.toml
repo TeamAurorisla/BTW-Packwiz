@@ -1,16 +1,12 @@
-filename = 'ComplementaryReimagined_r5.8.1.zip'
-name = 'Complementary Shaders - Reimagined'
+filename = 'Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip'
+name = 'Bliss Shaders'
 side = ''
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
-    '1.10.2',
-    '1.11.2',
-    '1.12.2',
-    '1.13.2',
-    '1.14.4',
-    '1.15.2',
-    '1.16.5',
+    '1.17',
     '1.17.1',
+    '1.18',
+    '1.18.1',
     '1.18.2',
     '1.19',
     '1.19.1',
@@ -36,23 +32,20 @@ x-prismlauncher-mc-versions = [
     '1.21.7',
     '1.21.8',
     '1.21.9',
-    '1.7.10',
-    '1.8.9',
-    '1.9.4',
     '26.1',
     '26.1.1',
     '26.1.2',
     '26.2'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Complementary Reimagined r5.8.1'
+x-prismlauncher-version-number = 'Bliss v2.1.2'
 
 [download]
-hash = '5a021081f0178ed91dd911194071465ab0a4348b'
+hash = 'ded6c8a98305f8aff90ef781e7585b33b8452cfd'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8123287
-project-id = 627557
+file-id = 7251787
+project-id = 610844

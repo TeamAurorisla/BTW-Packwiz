@@ -1,0 +1,17 @@
+filename = 'IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar'
+name = 'Illager Invasion'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] IllagerInvasion-v21.1.6'
+
+[download]
+hash = '48bea606f6e3f10e2100349de2c6c65c76c20786'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6492670
+project-id = 891324

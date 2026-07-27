@@ -1,0 +1,17 @@
+filename = 'naturalist-1.0.2-neoforge-1.21.1.jar'
+name = 'Naturalist'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Naturalist 1.0.2'
+
+[download]
+hash = 'd026c2c4ac66a9bc656e9b894683d1131054a80a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8007879
+project-id = 627986
