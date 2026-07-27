@@ -37,6 +37,11 @@ jobs:
       - name: Download and run packwiz-installer-bootstrap
         run: |
           curl -L -o /tmp/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+      
+      - name: Run packwiz-installer-bootstrap
+        env:
+          JAVA_TOOL_OPTIONS: "-Djava.awt.headless=true"
+        run: |
           java -jar /tmp/packwiz-installer-bootstrap.jar pack.toml
 
       - name: Collect downloaded files
