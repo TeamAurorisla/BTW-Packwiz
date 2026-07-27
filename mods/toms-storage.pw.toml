@@ -1,0 +1,16 @@
+filename = 'toms_storage-1.21-2.4.1.jar'
+name = "Tom's Simple Storage Mod"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "[NeoForge] Tom's Storage 1.21-2.4.1"
+
+[download]
+hash = '409cdd1ec6f8f4700542c285d99ffdcab2afbf54'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 8501301
+project-id = 378609

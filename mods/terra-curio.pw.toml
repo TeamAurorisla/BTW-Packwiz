@@ -1,0 +1,16 @@
+filename = 'terra_curio-1.1.2.jar'
+name = 'Terra Curio'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Terra Curio 1.1.2'
+
+[download]
+hash = 'f2e31be7ad9ac4cde962dbda37c07888935345ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 6881159
+project-id = 1027625
