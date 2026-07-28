@@ -150,6 +150,11 @@ hash = "b82c3378a6a4dda952a09e015f0c20b522320560f416a58c8e98e0cfab89c363"
 metafile = true
 
 [[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "c84f746a06645cb20d6d0857c59d28a36868cc41dba62acb44998c9c9745711c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "f5728419d216abf67779cb0fbef71b1006b25af0ca6ebbcab39a2e8d6277b449"
 metafile = true
@@ -157,6 +162,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "7753b6880273b19f4d5cad22659af4b26876cd907fd64638a9ddc5c307262b3a"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "6a31cf743ad366983f7a75dbb2094dcccd940cef51ad26694b45918f3077bcb1"
 metafile = true
 
 [[files]]
@@ -172,6 +182,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "ce3bbab88e50640ce0e77382efbb054f8d1f39c43ae8413694249e23a4c8f9fc"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "8585890cacc4be5e1b72b90053b158dd2ade920735bfdd157beb58e73561b5b2"
 metafile = true
 
 [[files]]
@@ -207,6 +222,11 @@ metafile = true
 [[files]]
 file = "mods/darker-depths.pw.toml"
 hash = "78e01cdb385950f65cb6ab257b47b6769c83724803c1ee38a20c106764fa0a02"
+metafile = true
+
+[[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "d3bf6f3d0e23e66be4faaf51c904f3b320897b4b96cd1f81fc5238dae278a2e6"
 metafile = true
 
 [[files]]
@@ -295,8 +315,18 @@ hash = "de7b464422a6797fa141a3a976c9aae768936c1c86707797eb2acdd4fb163674"
 metafile = true
 
 [[files]]
+file = "mods/fantastic-wings.pw.toml"
+hash = "5e6702f0d45075ca81cded92b427278192993c80ca13260ac2658b8203feccac"
+metafile = true
+
+[[files]]
 file = "mods/fantasy-armor.pw.toml"
 hash = "5b06f262acb45686fe8fcc6ea14c430de2f4d4d330f9fb10df021eb8ef3e7c3c"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "7b4af185b8f0dc584292680f08bd36ac83ad3ab14feb46a12fa42febfb85b8fd"
 metafile = true
 
 [[files]]
@@ -610,6 +640,11 @@ hash = "5374d7adbeb8a5c099653244e9309bdd440585f599474427a448295f440182dd"
 metafile = true
 
 [[files]]
+file = "mods/neocontinuity.pw.toml"
+hash = "dca3087e7f187480336266505ccc716e2d174846f897058c348c2cf556a2f1e9"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "3b17c274782c62708da92e27547b29103b6d81d332fa38397bf0b000032c3dac"
 metafile = true
@@ -750,6 +785,11 @@ hash = "65b8011146b1de61c7e255bc1b747b1d099f199677d6eae64ac50c66817424f8"
 metafile = true
 
 [[files]]
+file = "mods/small-ships.pw.toml"
+hash = "961136261987ba1a215b9d6a958bf0b820a46666a118b3ec861dd424bb64a180"
+metafile = true
+
+[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "9491957570e55330dd249cfe44659424671fee2e27403fcfd3c19e18f4a9a389"
 metafile = true
@@ -882,6 +922,21 @@ metafile = true
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
 hash = "efda5ba56a9cee945bb90bd64ffee7b56d64da007f1c026caa8edc5c2c1c1e82"
+metafile = true
+
+[[files]]
+file = "mods/vein-mining.pw.toml"
+hash = "8b41e5deea228b521f31b54c353fa76ec94e289d62f5384c70347d9be052ee21"
+metafile = true
+
+[[files]]
+file = "mods/villager-names.pw.toml"
+hash = "959a53cd74315b2a36f736254afda3111f80a762b19d4dfaff0e4e497b12313c"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "370e91853b3e5920ff1cd0dda1aaf1534a3ecdf7dbfaed593c926d9f778b15c1"
 metafile = true
 
 [[files]]
