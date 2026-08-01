@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "4711ea0f3b1359cfd0ef55e67bac1e10292c84c724df0cd9cfaac663ce2d6c52"
+hash = "fd6ea102a03188a94c615abfd3ed41e39f27affc0e35c7f4ea41a100bfd0d2d8"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
-hash = "1e6559edcb1ca1f027e0e50b3a7ae8e355b88343a258dae12c0fd97e358bf6ce"
+hash = "0cbe889657c19e30884136ad251fa51de1280f3dc088ce0a43b5c02f5210ee8e"
 metafile = true
 
 [[files]]
@@ -291,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/epiphany-mod.pw.toml"
-hash = "547d5ea84070ed42c61394aeef3b89fc9789fd730e02e1a4003e043781de858a"
+hash = "7501e7151d2298723d949ba91f70890d41b784291132a75e17a65e675f2ace5e"
 metafile = true
 
 [[files]]
@@ -311,7 +311,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "de7b464422a6797fa141a3a976c9aae768936c1c86707797eb2acdd4fb163674"
+hash = "6483452f9f0c3898bb34ebcc35274098879bc9674706a9940edb43c59dfda85f"
 metafile = true
 
 [[files]]
@@ -386,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/grim-kingdoms-lost-structures-ruins-vanilla.pw.toml"
-hash = "5f94d1d12abae51dc15d9b4f9105ccab5a4a9e2cf2c5aff349c95b9b6d8a949a"
+hash = "1133deb382a122e54b3625d7dbb07cf7e272bf0fdd9d0bed6c96e5afd91c3ff2"
 metafile = true
 
 [[files]]
@@ -417,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/illager-invasion.pw.toml"
 hash = "4066679fb7a3d2d842954d4ff1321b147b9af8aa42ded431d4ebc52bbaafa81a"
+metafile = true
+
+[[files]]
+file = "mods/illager-structures.pw.toml"
+hash = "60ff27ad64d6eb1c985d09832412baf303a29368c0e9fa15e63b6b081ef840df"
 metafile = true
 
 [[files]]
@@ -480,8 +485,13 @@ hash = "22cb03a40d8396fb2b2b30bbfd14d93296381147b2f503a370f86341833e6c76"
 metafile = true
 
 [[files]]
+file = "mods/jaki-versatile-structures.pw.toml"
+hash = "527af69503c000e3fd181fd6874bc07d7de0b5998a9b2e371b4cdfb8336ab679"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "f3d60a333a50a2d451fc7dd48595b01448f6eeaea111e175e7c6f482b383d74f"
+hash = "9187529c5f5d5d6db594382762b8945d1eb608ca521a069398eccb73dc9880ad"
 metafile = true
 
 [[files]]
@@ -521,7 +531,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "da2f0d5ea0804f5ef28571dd66642c0496b508a95204c598f7fa104a4e54fcb0"
+hash = "644c1d96c93b958610ac5353b4b35d20fda0e4ff7ad749366c97df490bddc2b4"
 metafile = true
 
 [[files]]
@@ -621,7 +631,7 @@ metafile = true
 
 [[files]]
 file = "mods/mru.pw.toml"
-hash = "efc6a3d0ed0b96663d9dc039bb6eb3f51732acfc799c04dd679d539592f875d0"
+hash = "9fc1f5daf8cabb3d8b9e4092b46075deb6adcfd9a4f928e6a0c68698e9200b38"
 metafile = true
 
 [[files]]
@@ -631,7 +641,7 @@ metafile = true
 
 [[files]]
 file = "mods/naturalist.pw.toml"
-hash = "d94f265d186b5d1d4701fb40d84d7dc2c5e65670e845cfe41d12d983321e9d43"
+hash = "61725632b7ddc06a033e365b48df25b96d70acaecb746614ac86bc63a8c8d8dd"
 metafile = true
 
 [[files]]
@@ -801,7 +811,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "a6320aa8141a4bb3bd2139f3615782dfef0b0435bb969d36475a74492e570c3a"
+hash = "4f497038b04bb6eb2692680fe2f5bf9c1dfe8a06006a8ca53667eed6819309bc"
 metafile = true
 
 [[files]]
@@ -841,7 +851,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "a9deac6789d689c5e6710b037760b199a369442ba96ac5a4f5f1b0ef14ed1659"
+hash = "daba22a03feb1897e363b5ba9cfeb96e5171aa429097044ec7e430ddfcf392b6"
 metafile = true
 
 [[files]]
@@ -851,7 +861,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "4784c908ede229fa9aea243810f14f8330d7cdd467e6272a9677af418a8c91a9"
+hash = "d2ff14d33a2e628c772d8081ef486002bf9289ed6847126b2435588345e7a952"
 metafile = true
 
 [[files]]
@@ -861,7 +871,7 @@ metafile = true
 
 [[files]]
 file = "mods/terra-curio.pw.toml"
-hash = "a8e18aed18144477396bfa595ed006d745ba9d46cd613fd9df8793c73aca997e"
+hash = "803e09df8d05ed3ec79a6f8b6dba1bb743b86acf53bfd3addd3ab0c83f2c680d"
 metafile = true
 
 [[files]]
