@@ -1,16 +1,16 @@
-filename = 'epiphany-1.0.0.jar'
-name = 'Epiphany - Modular Skill Tree'
+filename = 'epiphany-1.1.1.jar'
+name = 'Epiphany'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Epiphany 1.0.0'
+x-prismlauncher-version-number = 'Epiphany 1.1.1'
 
 [download]
-hash = 'f6b4c56b66c31a5e28871f8de79ae59c35339194'
+hash = 'f5d06c068d512b3aa0fd11cf126c8d2d79546629'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 8423300
+file-id = 8551874
 project-id = 1608467

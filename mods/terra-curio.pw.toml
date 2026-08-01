@@ -1,16 +1,16 @@
-filename = 'terra_curio-1.1.2.jar'
-name = 'Terra Curio'
+filename = 'terra_curio-1.3.1.jar'
+name = 'TerraCurio'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Terra Curio 1.1.2'
+x-prismlauncher-version-number = 'TerraCurio-1.3.1-neoforge'
 
 [download]
-hash = 'f2e31be7ad9ac4cde962dbda37c07888935345ce'
+hash = '4963ca9a0110705026184bf56430fce8ecd014aa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 6881159
+file-id = 8520023
 project-id = 1027625
