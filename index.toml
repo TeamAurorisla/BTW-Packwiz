@@ -291,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/epiphany-mod.pw.toml"
-hash = "7501e7151d2298723d949ba91f70890d41b784291132a75e17a65e675f2ace5e"
+hash = "80eb2de39303424caf18143641480bd3d6a19507150ee13461f0fc9eff7332bd"
 metafile = true
 
 [[files]]
@@ -462,6 +462,11 @@ metafile = true
 [[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "e2728835af8557db19f47fa6e6762d339f145a5ac70ff534ae4d43972cc81290"
+metafile = true
+
+[[files]]
+file = "mods/it-takes-a-pillage-continuation.pw.toml"
+hash = "a8d03ad11faadd524ee264fc532df7c1bf576a9473269a596a0f9aca79cc5732"
 metafile = true
 
 [[files]]
