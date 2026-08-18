@@ -1,16 +1,16 @@
-filename = 'epiphany-1.1.1.jar'
+filename = 'epiphany-1.2.1.jar'
 name = 'Epiphany'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Epiphany 1.1.1'
+x-prismlauncher-version-number = 'Epiphany 1.2.1'
 
 [download]
-hash = 'f5d06c068d512b3aa0fd11cf126c8d2d79546629'
+hash = 'e5e362aa205f697ebe063b3532c37f488c91b8ac'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 8551874
+file-id = 8644371
 project-id = 1608467
